@@ -1,0 +1,305 @@
+@font-face{
+    font-family: "bignoodletitling";
+    src: url('../font/bignoodletitling/big_noodle_titling.ttf');
+}
+*{
+    margin: 0;
+}
+header{
+    background: url('../image/background.jpg');
+    height: 1080px;
+    background-size: 100% 100%;
+}
+.journey h1{
+    font-family: "bignoodletitling";
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+    color: #fff;
+}
+.journey p{
+    font-size: 25px;
+    color: #fff;
+    line-height: 28px;
+}
+.journey{
+    float: left;
+    width: 600px;
+    text-align: center;
+    padding-top: 410px;
+    padding-left: 100px;
+    padding-right: 0;
+}
+.search-tours{
+    float: left;
+    background-color: #fff;
+    position: relative;
+    top: 200px;
+    width: 420px;
+    height: 600px;
+    z-index: 1;
+}
+.search-tours h1{
+    font-family: "bignoodletitling",sans-serif;
+    font-size: 60px;
+    color: #606060;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: normal;
+}
+.search-tours p{
+    color: #6e6e6e;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.form{
+    margin: 0 35px;
+}
+.search-tours input{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border: 0;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 15px;
+}
+.search-tours i{
+    font-size: 18px;
+    position: relative;
+    margin-left: 0;
+    left: -25px;
+    color: #606060;
+}
+#bed{
+    font-size: 15px;
+}
+.find{
+    width: 320px;
+    height: 50px;
+    margin-top: 20px;
+    position: relative;
+    left: 15px;
+    border: 0;
+    background-color: #006fe6;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.end-head{
+    position: absolute;
+    height: 200px;
+    background-color: #4490de;
+    opacity: 0.7;
+    bottom: -220px;
+    width: 100%;
+}
+.end-head p{
+    width: 35%;
+    margin-left: 200px;
+    margin-top: 50px;
+    line-height: 28px;
+    color: #fff;
+    font-family:  'Open Sans', sans-serif;
+}
+.tours{
+    background: url('../image/Layer%206.jpg');
+    background-size: 100% 100%;
+    height: 560px;
+    margin-top: 0;
+}
+.egestas{
+    font-family: 'Open San',sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #606060;
+    text-align: center;
+    padding-top: 30px;
+}
+.items-tour{
+    display: flex;
+    font-family: "bignoodletitling",sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 150px; 150px;
+    color: #fff;
+    font-weight: normal;
+}
+.tour{
+    height: 235px;
+    width: 25%;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.north{
+    background: url('../image/Layer%2023.jpg')
+}
+.tour h4{
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+.south{
+    background: url('../image/Layer%203.jpg');
+}
+.sanfrancisco{
+    background: url('../image/Layer%2041.jpg');
+}
+.amazon{
+    background: url('../image/Layer%205.jpg');
+}
+.new-events h2{
+    font-family: "bignoodletitling",sans-serif;
+    color: #353535;
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    margin: 50px 0 0;
+}
+.list-events{
+    display: flex;
+    padding: 0 150px;
+    margin-top: 50px;
+}
+.travel{
+    margin-right: 30px;
+    font-family: 'Open San',sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+.travel img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.travel a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #6aaeff;
+    display: inline-block;
+    margin: 20px 0;
+}
+.travel i{
+    color: #606060;
+    margin-right: 5px;
+}
+.gray{
+    color: #606060;
+    margin-right: 50px;
+}
+.travel p{
+    color: #606060;
+    margin-top: 40px;
+}
+.luxury{
+    background: url('../image/Layer16.png');
+    background-size: 100% 100%;
+    height: 700px;
+    margin-top: 100px;
+    font-family: "bignoodletitling",sans-serif;
+}
+.luxury h2{
+    font-size: 120px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+}
+.luxury h3{
+   font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+.find-circle{
+    width: 160px;
+    height: 160px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #47a0ff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top:  30px;
+    margin-left: 45%;
+}
+.footer{
+    color: #606060;
+    margin: 90px 90px;
+    line-height: 28px;
+}
+.footer h2{
+    font-family: "bignoodletitling",sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+.footer-group{
+    float: left;
+    margin-right: 50px;
+    height: 200px;
+}
+#finder p{
+    font-family: 'Open San',sans-serif;
+}
+#support a{
+    text-decoration: none;
+    display: block;
+    color: #606060;
+}
+#support a:hover{
+    color: #47a0ff;
+}
+#follow a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #47a0ff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+    position: relative;
+}
+#follow i{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+#letter input{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #f2f2f2;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.submit{
+    height: 40px;
+    width: 70px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #006fe6;
+    position: relative;
+    left: -80px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.end-footer{
+    clear: both;
+}
+.end-footer p{
+    margin: 20px 0px 20px 100px;
+    font-family: 'Open San',sans-serif;
+    font-size: 14px;
+    color: #606060;
+}
